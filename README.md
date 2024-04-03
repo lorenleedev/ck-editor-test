@@ -8,11 +8,18 @@ import '@lorenleedev/ck-editor-test/dist/style.css';
 import '@lorenleedev/ck-editor-test/dist/ckeditor.css';
 
 // editor 생성하기
-const editor = initEditor({
+const initialize = async () => {
+  const editor = await initEditor({
     targetId: 'test',
     lang: 'en',
     initialData: '<p>test</p>',
-});
+  });
+  setEditor(editor);
+}
+initialize();
+
+// html
+<div id="test"></div>
 
 // editor에 데이터 넣기
 editor.setData('<p>Hello world!</p>');
