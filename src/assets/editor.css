@@ -1,0 +1,22 @@
+body {
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+:root {
+    /*--ck-border-radius: 4px !important;*/
+    /*--ck-color-toolbar-border: red !important;*/
+    /*--ck-color-base-border: red !important;*/
+    /*--ck-font-size-base: 10px !important;*/
+    /*--ck-color-text: red !important;*/
+}
+
+.ck-content {
+    min-height: 500px;
+    max-height: 700px;
+}
+
+/* 로고 숨김처리 */
+.ck-powered-by-balloon {
+    display: none !important;
+}
