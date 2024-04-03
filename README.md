@@ -4,8 +4,8 @@ ck-editor를 테스트하는 레포지토리입니다.
 ### 사용법
 ```ecmascript 6
 import {initEditor} from '@lorenleedev/ck-editor-test';
-import '@lorenleedev/ck-editor-test/dist/style.css';
-import '@lorenleedev/ck-editor-test/dist/ckeditor.css';
+import '@lorenleedev/ck-editor-test/style.css';
+import '@lorenleedev/ck-editor-test/ckeditor.css';
 
 // editor 생성하기
 const initialize = async () => {
