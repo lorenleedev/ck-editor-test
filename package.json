@@ -5,7 +5,7 @@
     "name": "lorenleedev",
     "email": "lorenlee.dev@gmail.com"
   },
-  "version": "0.0.13",
+  "version": "0.0.14",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,8 +19,8 @@
       "import": "./dist/index.js",
       "require": "./dist/index.js"
     },
-    "./dist/style.css": "./style.css",
-    "./dist/editor.css": "./dist/editor.css"
+    "./style.css": "./dist/style.css",
+    "./editor.css": "./dist/editor.css"
   },
   "files": [
     "dist"
