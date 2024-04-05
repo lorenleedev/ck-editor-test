@@ -5,9 +5,11 @@ ck-editor를 테스트하는 레포지토리입니다.
 ```ecmascript 6
 import {initEditor} from '@lorenleedev/ck-editor-test';
 import '@lorenleedev/ck-editor-test/style.css';
-import '@lorenleedev/ck-editor-test/ckeditor.css';
+import '@lorenleedev/ck-editor-test/editor.css';
 
 // editor 생성하기
+const [editor, setEditor] = useState(null);
+
 const initialize = async () => {
   const editor = await initEditor({
     targetId: 'test',
