@@ -5,7 +5,7 @@
     "name": "lorenleedev",
     "email": "lorenlee.dev@gmail.com"
   },
-  "version": "0.0.17",
+  "version": "0.0.18",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,6 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.3",
+    "@vituum/vite-plugin-postcss": "^1.1.0",
     "path": "^0.12.7",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
