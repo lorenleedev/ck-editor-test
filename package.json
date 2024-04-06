@@ -5,7 +5,7 @@
     "name": "lorenleedev",
     "email": "lorenlee.dev@gmail.com"
   },
-  "version": "0.0.28",
+  "version": "0.0.29",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -52,6 +52,7 @@
     "@ckeditor/ckeditor5-paragraph": "^41.2.1",
     "@ckeditor/ckeditor5-paste-from-office": "^41.2.1",
     "@ckeditor/ckeditor5-table": "^41.2.1",
+    "@ckeditor/ckeditor5-theme-lark": "^41.0.0",
     "@ckeditor/ckeditor5-typing": "^41.2.1",
     "@ckeditor/ckeditor5-upload": "^41.2.1",
     "@ckeditor/vite-plugin-ckeditor5": "^0.1.3",
