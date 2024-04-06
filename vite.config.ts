@@ -17,6 +17,11 @@ export default defineConfig({
         outDir: "dist",
         assetsDir: ".",
     },
+    css: {
+        postcss: {
+            parser: require('postcss-safe-parser'),
+        },
+    },
     plugins: [
         ckeditor5( {
             theme: require.resolve( '@ckeditor/ckeditor5-theme-lark' )
