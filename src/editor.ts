@@ -32,7 +32,7 @@ interface EditorConfig {
     initialData?: string;
 }
 
-export const initEditor = async ({targetId, lang = 'en', initialData = ''}: EditorConfig):  Promise<ClassicEditor | null> => {
+export const initEditor = async ({targetId, lang = 'en'}: EditorConfig):  Promise<ClassicEditor | null> => {
     const element = document.getElementById( targetId );
 
     if (!element) {
@@ -41,7 +41,7 @@ export const initEditor = async ({targetId, lang = 'en', initialData = ''}: Edit
     }
 
     const editor = await ClassicEditor.create( element, {
-        initialData,
+        // initialData,
         plugins: [
             Essentials,
             Paragraph,
